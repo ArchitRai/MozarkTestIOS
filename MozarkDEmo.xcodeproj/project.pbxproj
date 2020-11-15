@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF8817422518B17100CD336B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8817412518B17100CD336B /* AppDelegate.swift */; };
+		AF8817442518B17100CD336B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8817432518B17100CD336B /* SceneDelegate.swift */; };
+		AF8817462518B17100CD336B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8817452518B17100CD336B /* ViewController.swift */; };
+		AF8817492518B17100CD336B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8817472518B17100CD336B /* Main.storyboard */; };
+		AF88174C2518B17100CD336B /* MozarkDEmo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF88174A2518B17100CD336B /* MozarkDEmo.xcdatamodeld */; };
+		AF88174E2518B17300CD336B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF88174D2518B17300CD336B /* Assets.xcassets */; };
+		AF8817512518B17300CD336B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF88174F2518B17300CD336B /* LaunchScreen.storyboard */; };
+		AF88175C2518B17300CD336B /* MozarkDEmoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88175B2518B17300CD336B /* MozarkDEmoTests.swift */; };
+		AF8817672518B17300CD336B /* MozarkDEmoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8817662518B17300CD336B /* MozarkDEmoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF8817582518B17300CD336B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF8817362518B17100CD336B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF88173D2518B17100CD336B;
+			remoteInfo = MozarkDEmo;
+		};
+		AF8817632518B17300CD336B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF8817362518B17100CD336B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF88173D2518B17100CD336B;
+			remoteInfo = MozarkDEmo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF88173E2518B17100CD336B /* MozarkDEmo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MozarkDEmo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8817412518B17100CD336B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF8817432518B17100CD336B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF8817452518B17100CD336B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF8817482518B17100CD336B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF88174B2518B17100CD336B /* MozarkDEmo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MozarkDEmo.xcdatamodel; sourceTree = "<group>"; };
+		AF88174D2518B17300CD336B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF8817502518B17300CD336B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF8817522518B17300CD336B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8817572518B17300CD336B /* MozarkDEmoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MozarkDEmoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF88175B2518B17300CD336B /* MozarkDEmoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MozarkDEmoTests.swift; sourceTree = "<group>"; };
+		AF88175D2518B17300CD336B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8817622518B17300CD336B /* MozarkDEmoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MozarkDEmoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8817662518B17300CD336B /* MozarkDEmoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MozarkDEmoUITests.swift; sourceTree = "<group>"; };
+		AF8817682518B17300CD336B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF88173B2518B17100CD336B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8817542518B17300CD336B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF88175F2518B17300CD336B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF8817352518B17100CD336B = {
+			isa = PBXGroup;
+			children = (
+				AF8817402518B17100CD336B /* MozarkDEmo */,
+				AF88175A2518B17300CD336B /* MozarkDEmoTests */,
+				AF8817652518B17300CD336B /* MozarkDEmoUITests */,
+				AF88173F2518B17100CD336B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF88173F2518B17100CD336B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF88173E2518B17100CD336B /* MozarkDEmo.app */,
+				AF8817572518B17300CD336B /* MozarkDEmoTests.xctest */,
+				AF8817622518B17300CD336B /* MozarkDEmoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF8817402518B17100CD336B /* MozarkDEmo */ = {
+			isa = PBXGroup;
+			children = (
+				AF8817412518B17100CD336B /* AppDelegate.swift */,
+				AF8817432518B17100CD336B /* SceneDelegate.swift */,
+				AF8817452518B17100CD336B /* ViewController.swift */,
+				AF8817472518B17100CD336B /* Main.storyboard */,
+				AF88174D2518B17300CD336B /* Assets.xcassets */,
+				AF88174F2518B17300CD336B /* LaunchScreen.storyboard */,
+				AF8817522518B17300CD336B /* Info.plist */,
+				AF88174A2518B17100CD336B /* MozarkDEmo.xcdatamodeld */,
+			);
+			path = MozarkDEmo;
+			sourceTree = "<group>";
+		};
+		AF88175A2518B17300CD336B /* MozarkDEmoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF88175B2518B17300CD336B /* MozarkDEmoTests.swift */,
+				AF88175D2518B17300CD336B /* Info.plist */,
+			);
+			path = MozarkDEmoTests;
+			sourceTree = "<group>";
+		};
+		AF8817652518B17300CD336B /* MozarkDEmoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF8817662518B17300CD336B /* MozarkDEmoUITests.swift */,
+				AF8817682518B17300CD336B /* Info.plist */,
+			);
+			path = MozarkDEmoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF88173D2518B17100CD336B /* MozarkDEmo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF88176B2518B17300CD336B /* Build configuration list for PBXNativeTarget "MozarkDEmo" */;
+			buildPhases = (
+				AF88173A2518B17100CD336B /* Sources */,
+				AF88173B2518B17100CD336B /* Frameworks */,
+				AF88173C2518B17100CD336B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MozarkDEmo;
+			productName = MozarkDEmo;
+			productReference = AF88173E2518B17100CD336B /* MozarkDEmo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF8817562518B17300CD336B /* MozarkDEmoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF88176E2518B17300CD336B /* Build configuration list for PBXNativeTarget "MozarkDEmoTests" */;
+			buildPhases = (
+				AF8817532518B17300CD336B /* Sources */,
+				AF8817542518B17300CD336B /* Frameworks */,
+				AF8817552518B17300CD336B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF8817592518B17300CD336B /* PBXTargetDependency */,
+			);
+			name = MozarkDEmoTests;
+			productName = MozarkDEmoTests;
+			productReference = AF8817572518B17300CD336B /* MozarkDEmoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF8817612518B17300CD336B /* MozarkDEmoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8817712518B17300CD336B /* Build configuration list for PBXNativeTarget "MozarkDEmoUITests" */;
+			buildPhases = (
+				AF88175E2518B17300CD336B /* Sources */,
+				AF88175F2518B17300CD336B /* Frameworks */,
+				AF8817602518B17300CD336B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF8817642518B17300CD336B /* PBXTargetDependency */,
+			);
+			name = MozarkDEmoUITests;
+			productName = MozarkDEmoUITests;
+			productReference = AF8817622518B17300CD336B /* MozarkDEmoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF8817362518B17100CD336B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Archit;
+				TargetAttributes = {
+					AF88173D2518B17100CD336B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					AF8817562518B17300CD336B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = AF88173D2518B17100CD336B;
+					};
+					AF8817612518B17300CD336B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = AF88173D2518B17100CD336B;
+					};
+				};
+			};
+			buildConfigurationList = AF8817392518B17100CD336B /* Build configuration list for PBXProject "MozarkDEmo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF8817352518B17100CD336B;
+			productRefGroup = AF88173F2518B17100CD336B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF88173D2518B17100CD336B /* MozarkDEmo */,
+				AF8817562518B17300CD336B /* MozarkDEmoTests */,
+				AF8817612518B17300CD336B /* MozarkDEmoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF88173C2518B17100CD336B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8817512518B17300CD336B /* LaunchScreen.storyboard in Resources */,
+				AF88174E2518B17300CD336B /* Assets.xcassets in Resources */,
+				AF8817492518B17100CD336B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8817552518B17300CD336B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8817602518B17300CD336B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF88173A2518B17100CD336B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF88174C2518B17100CD336B /* MozarkDEmo.xcdatamodeld in Sources */,
+				AF8817462518B17100CD336B /* ViewController.swift in Sources */,
+				AF8817422518B17100CD336B /* AppDelegate.swift in Sources */,
+				AF8817442518B17100CD336B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8817532518B17300CD336B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF88175C2518B17300CD336B /* MozarkDEmoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF88175E2518B17300CD336B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8817672518B17300CD336B /* MozarkDEmoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF8817592518B17300CD336B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF88173D2518B17100CD336B /* MozarkDEmo */;
+			targetProxy = AF8817582518B17300CD336B /* PBXContainerItemProxy */;
+		};
+		AF8817642518B17300CD336B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF88173D2518B17100CD336B /* MozarkDEmo */;
+			targetProxy = AF8817632518B17300CD336B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF8817472518B17100CD336B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF8817482518B17100CD336B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF88174F2518B17300CD336B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF8817502518B17300CD336B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF8817692518B17300CD336B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF88176A2518B17300CD336B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF88176C2518B17300CD336B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF4X538642;
+				INFOPLIST_FILE = MozarkDEmo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.archit.MozarkDEmo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF88176D2518B17300CD336B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF4X538642;
+				INFOPLIST_FILE = MozarkDEmo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.archit.MozarkDEmo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF88176F2518B17300CD336B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF4X538642;
+				INFOPLIST_FILE = MozarkDEmoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.archit.MozarkDEmoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MozarkDEmo.app/MozarkDEmo";
+			};
+			name = Debug;
+		};
+		AF8817702518B17300CD336B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF4X538642;
+				INFOPLIST_FILE = MozarkDEmoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.archit.MozarkDEmoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MozarkDEmo.app/MozarkDEmo";
+			};
+			name = Release;
+		};
+		AF8817722518B17300CD336B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF4X538642;
+				INFOPLIST_FILE = MozarkDEmoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.archit.MozarkDEmoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MozarkDEmo;
+			};
+			name = Debug;
+		};
+		AF8817732518B17300CD336B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF4X538642;
+				INFOPLIST_FILE = MozarkDEmoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.archit.MozarkDEmoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MozarkDEmo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF8817392518B17100CD336B /* Build configuration list for PBXProject "MozarkDEmo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8817692518B17300CD336B /* Debug */,
+				AF88176A2518B17300CD336B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF88176B2518B17300CD336B /* Build configuration list for PBXNativeTarget "MozarkDEmo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF88176C2518B17300CD336B /* Debug */,
+				AF88176D2518B17300CD336B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF88176E2518B17300CD336B /* Build configuration list for PBXNativeTarget "MozarkDEmoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF88176F2518B17300CD336B /* Debug */,
+				AF8817702518B17300CD336B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8817712518B17300CD336B /* Build configuration list for PBXNativeTarget "MozarkDEmoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8817722518B17300CD336B /* Debug */,
+				AF8817732518B17300CD336B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF88174A2518B17100CD336B /* MozarkDEmo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF88174B2518B17100CD336B /* MozarkDEmo.xcdatamodel */,
+			);
+			currentVersion = AF88174B2518B17100CD336B /* MozarkDEmo.xcdatamodel */;
+			path = MozarkDEmo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AF8817362518B17100CD336B /* Project object */;
+}
